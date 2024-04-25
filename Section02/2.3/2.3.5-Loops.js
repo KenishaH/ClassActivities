@@ -5,10 +5,17 @@ let x = 1;
 // 2 create a variable to represent the current total
 let total = 0;
 // 3 write a while loop that sums the numbers from 1 to 100
-while (x <= 100) {
-console.log(x);
-total = total + x;
-console.log(total);
+//while (x <= 100)
+//console.log(x);
+//total = total + x;
+//console.log(total);
+//  x++;
+//
+
+for (let x = 0; x <= 100; x++) {
+  console.log(x);
+  total = total + x;
+  console.log(total);
   x++;
 }
 
