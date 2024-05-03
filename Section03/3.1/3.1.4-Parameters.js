@@ -4,14 +4,14 @@
 // print each named parameter,
 // then return the parameters added together
 
-function functionWithTwoPara(x,y) {
-console.log("x= ", x);
- console.log("y = ", y);
+function functionWithTwoPara(x, y) {
+  console.log("x = ", x);
+  console.log("y = ", y);
   return x + y;
 }
 
 // invoke the function and pass in two numbers
- functionWithTwoPara(3, 4);
+functionWithTwoPara(3, 4);
 // invoke the function and pass in more than two numbers
 functionWithTwoPara(3, 4, 5, 6);
 // invoke the function and pass in only one number
@@ -30,9 +30,9 @@ functionWithDefaultPara(5);
 
 function functionWithRestPara(x, y, ...a) {
   console.log(" x =", x);
-    console.log("y =", y);
-    console.log("Rest Params", a);
-    return x + y;
+  console.log("y =", y);
+  console.log("Rest Params", a);
+  return x + y;
 }
 
 // again, invoke the function and pass in more than two numbers
